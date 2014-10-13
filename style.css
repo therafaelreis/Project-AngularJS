@@ -1,0 +1,43 @@
+hr { 
+	display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0;	
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+.price{
+margin: 0 auto 20px;
+width: 90px;
+height: 90px;
+color:#E35354;
+line-height: 90px;
+font-size: 19px;
+font-weight: bold;
+}
+
+.titulo{
+font-family: 'Oswald', sans-serif;
+font-size: 26px;
+}
+
+.ng-invalid.ng-dirty{
+	border-color: #FA7873;
+}
+
+.ng-valid.ng-dirty{
+	border-color: #78FA89;
+}
